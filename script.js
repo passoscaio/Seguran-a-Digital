@@ -22,3 +22,8 @@ if (checkbox [3].checked) {
     math.floor (math.random() * simbolos.length)
     ];
 }
+
+const letrasMaiusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letrasMinusculas = "abcdefghijklmnopqrstuvwxyz";
+const numeros = "0123456789";
+const simbolos = "!?#+-@*%";
