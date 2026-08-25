@@ -45,7 +45,7 @@ function geraSenha(){
 }
 
 function diminuiTamanho(){
-    if (tamanhoSenha > 1){
+    if (tamanhoSenha > 6){
        // tamanhoSenha = tamanhoSenha-1;
         tamanhoSenha--;
     }
