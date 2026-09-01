@@ -35,7 +35,7 @@ const simbolos = "!?#+-@*%";
 
 
 function geraSenha(){
-    let senha = '' ”;
+    let senha = '' ;
     for (let i = 0; i < tamanhoSenha;i++){
         let numeroAleatorio = Math.random()*letrasMaiusculas.length;
         numeroAleatorio = Math.floor(numeroAleatorio);
@@ -63,14 +63,26 @@ function aumentaTamanho(){
 
 function testarSenha {
     if (
-        senha.includes ("ABCDE")
+senha.includes ("ABCDE")
         senha.includes ("abcde")
         senha.includes ("12345")
     ) {
         return false;
       }
         return true;
-    
+    }
+
+function geraSenhaSegura (){
+     let senha;
+     do {
+        senha = geraSenha()
+
+    } while (testarSenha (senha) === false)
+     return senha;
+
+
+
+
 
 
 
