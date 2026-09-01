@@ -60,3 +60,18 @@ function aumentaTamanho(){
     numeroSenha.textContent = tamanhoSenha;
     geraSenha();
 }
+
+function testarSenha {
+    if (
+        senha.includes ("ABCDE")
+        senha.includes ("abcde")
+        senha.includes ("12345")
+    ) {
+        return false;
+      }
+        return true;
+    
+
+
+
+}
